@@ -1,0 +1,23 @@
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SNGenerateKey\bin\Debug\SNGenerateKey.exe.config
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SNGenerateKey\obj\Debug\SNGenerateKey.csprojResolveAssemblyReference.cache
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SNGenerateKey\obj\Debug\SNGenerateKey.Form1.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SNGenerateKey\obj\Debug\SNGenerateKey.Properties.Resources.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SNGenerateKey\obj\Debug\SNGenerateKey.csproj.GenerateResource.Cache
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SNGenerateKey\bin\Debug\SNGenerateKey.exe
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SNGenerateKey\bin\Debug\SNGenerateKey.pdb
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SNGenerateKey\bin\Debug\My.dll
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SNGenerateKey\bin\Debug\My.pdb
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SNGenerateKey\obj\Debug\SNGenerateKey.exe
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SNGenerateKey\obj\Debug\SNGenerateKey.pdb
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SNGenerateKey\bin\Debug\SNGenerateKey.exe.config
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SNGenerateKey\bin\Debug\SNGenerateKey.exe
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SNGenerateKey\bin\Debug\SNGenerateKey.pdb
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SNGenerateKey\bin\Debug\My.dll
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SNGenerateKey\bin\Debug\My.pdb
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SNGenerateKey\obj\Debug\SNGenerateKey.csprojResolveAssemblyReference.cache
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SNGenerateKey\obj\Debug\SNGenerateKey.Form1.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SNGenerateKey\obj\Debug\SNGenerateKey.Properties.Resources.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SNGenerateKey\obj\Debug\SNGenerateKey.csproj.GenerateResource.Cache
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SNGenerateKey\obj\Debug\SNGenerateKey.csproj.CoreCompileInputs.cache
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SNGenerateKey\obj\Debug\SNGenerateKey.exe
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SNGenerateKey\obj\Debug\SNGenerateKey.pdb

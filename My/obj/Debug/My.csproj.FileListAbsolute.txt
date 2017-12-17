@@ -1,0 +1,11 @@
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\My\bin\Debug\My.dll
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\My\bin\Debug\My.pdb
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\My\obj\Debug\My.dll
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\My\obj\Debug\My.pdb
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\My\obj\Debug\My.csprojResolveAssemblyReference.cache
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\My\bin\Debug\My.dll
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\My\bin\Debug\My.pdb
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\My\obj\Debug\My.csprojResolveAssemblyReference.cache
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\My\obj\Debug\My.csproj.CoreCompileInputs.cache
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\My\obj\Debug\My.dll
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\My\obj\Debug\My.pdb

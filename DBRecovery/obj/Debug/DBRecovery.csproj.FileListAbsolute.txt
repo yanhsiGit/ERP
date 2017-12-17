@@ -1,0 +1,19 @@
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\DBRecovery\bin\Debug\DBRecovery.exe.config
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\DBRecovery\bin\Debug\DBRecovery.exe
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\DBRecovery\bin\Debug\DBRecovery.pdb
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\DBRecovery\obj\Debug\DBRecovery.Form1.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\DBRecovery\obj\Debug\DBRecovery.Properties.Resources.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\DBRecovery\obj\Debug\DBRecovery.csproj.GenerateResource.Cache
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\DBRecovery\obj\Debug\DBRecovery.exe
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\DBRecovery\obj\Debug\DBRecovery.pdb
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\DBRecovery\obj\Debug\DBRecovery.csprojResolveAssemblyReference.cache
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\DBRecovery\bin\Debug\DBRecovery.exe.config
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\DBRecovery\bin\Debug\DBRecovery.exe
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\DBRecovery\bin\Debug\DBRecovery.pdb
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\DBRecovery\obj\Debug\DBRecovery.csprojResolveAssemblyReference.cache
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\DBRecovery\obj\Debug\DBRecovery.Form1.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\DBRecovery\obj\Debug\DBRecovery.Properties.Resources.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\DBRecovery\obj\Debug\DBRecovery.csproj.GenerateResource.Cache
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\DBRecovery\obj\Debug\DBRecovery.csproj.CoreCompileInputs.cache
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\DBRecovery\obj\Debug\DBRecovery.exe
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\DBRecovery\obj\Debug\DBRecovery.pdb

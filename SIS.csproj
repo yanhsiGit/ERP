@@ -1,0 +1,797 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4487625C-D11F-4503-9FC7-71CE4477A786}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SIS</RootNamespace>
+    <AssemblyName>SIS</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Inventory.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.ReportViewer.ProcessingObjectModel.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.ReportViewer.WinForms.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="My">
+      <HintPath>..\My\bin\Debug\My.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\ClsAccountsPayableConfig.cs" />
+    <Compile Include="Configuration\ClsAccountsReceivableConfig.cs" />
+    <Compile Include="Configuration\ClsCommonConfig.cs" />
+    <Compile Include="Configuration\ClsCompanyConfig.cs" />
+    <Compile Include="Configuration\ClsCustomerConfig.cs" />
+    <Compile Include="Configuration\ClsEmployeeConfig.cs" />
+    <Compile Include="Configuration\ClsItemsConfig.cs" />
+    <Compile Include="Configuration\ClsLoginConfig.cs" />
+    <Compile Include="Configuration\ClsManufacturerConfig.cs" />
+    <Compile Include="Configuration\ClsOnlineUpgradeSetting.cs" />
+    <Compile Include="Configuration\ClsPurchaseConfig.cs" />
+    <Compile Include="Configuration\ClsReportConfig.cs" />
+    <Compile Include="Configuration\ClsReversalConfig.cs" />
+    <Compile Include="Configuration\ClsRMAConfig.cs" />
+    <Compile Include="Configuration\ClsShipConfig.cs" />
+    <Compile Include="Configuration\ClsSISProcessorConfig.cs" />
+    <Compile Include="Configuration\ClsStockConfig.cs" />
+    <Compile Include="Configuration\ClsTakeStockConfig.cs" />
+    <Compile Include="Configuration\ClsUserConfig.cs" />
+    <Compile Include="DataSets\DataSetAccountsPayable.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetAccountsPayable.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetAccountsReceivable.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetAccountsReceivable.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetCustomer.cs">
+      <DependentUpon>DataSetCustomer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetCustomer.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetCustomer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetItems.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetItems.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetManufacturer.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetManufacturer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetPurchaseDetails.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetPurchaseDetails.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetPurchaseMaster.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetPurchaseMaster.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetReversal.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetReversal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetRMADetails.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetRMADetails.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetRMAMaster.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetRMAMaster.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetSaleOrders.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetSaleOrders.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetShipDetails.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetShipDetails.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetShipMaster.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetShipMaster.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetStockDetails.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetStockDetails.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetStockMaster.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetStockMaster.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetTakeStockDetails.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetTakeStockDetails.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetTakeStockMaster.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetTakeStockMaster.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBClass\DBClassAccountsPayable.cs" />
+    <Compile Include="DBClass\DBClassAccountsReceivable.cs" />
+    <Compile Include="DBClass\DBClassCompanyInfo.cs" />
+    <Compile Include="DBClass\DBClassCustomerInfo.cs" />
+    <Compile Include="DBClass\DBClassEmployeeInfo.cs" />
+    <Compile Include="DBClass\DBClassItemsInfo.cs" />
+    <Compile Include="DBClass\DBClassManagementInfo.cs" />
+    <Compile Include="DBClass\DBClassManufacturerInfo.cs" />
+    <Compile Include="DBClass\DBClassPurchaseDetails.cs" />
+    <Compile Include="DBClass\DBClassPurchaseMaster.cs" />
+    <Compile Include="DBClass\DBClassReversal.cs" />
+    <Compile Include="DBClass\DBClassRMADetails.cs" />
+    <Compile Include="DBClass\DBClassRMAMaster.cs" />
+    <Compile Include="DBClass\DBClassShipDetails.cs" />
+    <Compile Include="DBClass\DBClassShipMaster.cs" />
+    <Compile Include="DBClass\DBClassStockDetails.cs" />
+    <Compile Include="DBClass\DBClassStockMaster.cs" />
+    <Compile Include="DBClass\DBClassSysFunction.cs" />
+    <Compile Include="DBClass\DBClassSysRoleAuthority.cs" />
+    <Compile Include="DBClass\DBClassTakeStockDetails.cs" />
+    <Compile Include="DBClass\DBClassTakeStockMaster.cs" />
+    <Compile Include="DBClass\DBClassUserInfo.cs" />
+    <Compile Include="DBClass\DBClsLogin.cs" />
+    <Compile Include="DBClass\DBClsSysUserAuthority.cs" />
+    <Compile Include="DBClass\DBClsWinAPEvents.cs" />
+    <Compile Include="FrmAuthoritySetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAuthoritySetup.Designer.cs">
+      <DependentUpon>FrmAuthoritySetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBasicSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBasicSetting.Designer.cs">
+      <DependentUpon>FrmBasicSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangePassword.Designer.cs">
+      <DependentUpon>FrmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCheckUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCheckUpdate.Designer.cs">
+      <DependentUpon>FrmCheckUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCompanyMaintain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCompanyMaintain.Designer.cs">
+      <DependentUpon>FrmCompanyMaintain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCustomerMaintain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCustomerMaintain.Designer.cs">
+      <DependentUpon>FrmCustomerMaintain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmployeeMaintain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmployeeMaintain.Designer.cs">
+      <DependentUpon>FrmEmployeeMaintain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEventManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEventManage.Designer.cs">
+      <DependentUpon>FrmEventManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmItemsQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmItemsQuery.Designer.cs">
+      <DependentUpon>FrmItemsQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmItemsMaintain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmItemsMaintain.Designer.cs">
+      <DependentUpon>FrmItemsMaintain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmManufacturerMaintain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmManufacturerMaintain.Designer.cs">
+      <DependentUpon>FrmManufacturerMaintain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMidParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMidParent.Designer.cs">
+      <DependentUpon>FrmMidParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductRegistration.Designer.cs">
+      <DependentUpon>FrmProductRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportForAccountsPayable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportForAccountsPayable.Designer.cs">
+      <DependentUpon>FrmReportForAccountsPayable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportForAccountsReceivable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportForAccountsReceivable.Designer.cs">
+      <DependentUpon>FrmReportForAccountsReceivable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportForCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportForCustomer.Designer.cs">
+      <DependentUpon>FrmReportForCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportForItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportForItems.Designer.cs">
+      <DependentUpon>FrmReportForItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportForManufacturer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportForManufacturer.Designer.cs">
+      <DependentUpon>FrmReportForManufacturer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportForSaleOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportForSaleOrders.Designer.cs">
+      <DependentUpon>FrmReportForSaleOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportPrint.Designer.cs">
+      <DependentUpon>FrmReportPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSISPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSISPurchase.Designer.cs">
+      <DependentUpon>FrmSISPurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSISReversal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSISReversal.Designer.cs">
+      <DependentUpon>FrmSISReversal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSISRMA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSISRMA.Designer.cs">
+      <DependentUpon>FrmSISRMA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSISShip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSISShip.Designer.cs">
+      <DependentUpon>FrmSISShip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSISStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSISStock.Designer.cs">
+      <DependentUpon>FrmSISStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSISTakeStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSISTakeStock.Designer.cs">
+      <DependentUpon>FrmSISTakeStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSplashScreen.Designer.cs">
+      <DependentUpon>FrmSplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserRegistration.Designer.cs">
+      <DependentUpon>FrmUserRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAuthoritySetup.resx">
+      <DependentUpon>FrmAuthoritySetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBasicSetting.resx">
+      <DependentUpon>FrmBasicSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChangePassword.resx">
+      <DependentUpon>FrmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCheckUpdate.resx">
+      <DependentUpon>FrmCheckUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCompanyMaintain.resx">
+      <DependentUpon>FrmCompanyMaintain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCustomerMaintain.resx">
+      <DependentUpon>FrmCustomerMaintain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmployeeMaintain.resx">
+      <DependentUpon>FrmEmployeeMaintain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEventManage.resx">
+      <DependentUpon>FrmEventManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmItemsQuery.resx">
+      <DependentUpon>FrmItemsQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmItemsMaintain.resx">
+      <DependentUpon>FrmItemsMaintain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmManufacturerMaintain.resx">
+      <DependentUpon>FrmManufacturerMaintain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMidParent.resx">
+      <DependentUpon>FrmMidParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductRegistration.resx">
+      <DependentUpon>FrmProductRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportForAccountsPayable.resx">
+      <DependentUpon>FrmReportForAccountsPayable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportForAccountsReceivable.resx">
+      <DependentUpon>FrmReportForAccountsReceivable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportForCustomer.resx">
+      <DependentUpon>FrmReportForCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportForItems.resx">
+      <DependentUpon>FrmReportForItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportForManufacturer.resx">
+      <DependentUpon>FrmReportForManufacturer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportForSaleOrders.resx">
+      <DependentUpon>FrmReportForSaleOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportPrint.resx">
+      <DependentUpon>FrmReportPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSISPurchase.resx">
+      <DependentUpon>FrmSISPurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSISReversal.resx">
+      <DependentUpon>FrmSISReversal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSISRMA.resx">
+      <DependentUpon>FrmSISRMA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSISShip.resx">
+      <DependentUpon>FrmSISShip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSISStock.resx">
+      <DependentUpon>FrmSISStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSISTakeStock.resx">
+      <DependentUpon>FrmSISTakeStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSplashScreen.resx">
+      <DependentUpon>FrmSplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserRegistration.resx">
+      <DependentUpon>FrmUserRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reports\rptAccountsPayable.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptAccountsReceivable.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptCustomer.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptItems.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptManufacturer.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptPurchaseDetails.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptPurchaseMaster.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptReversal.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRMADetails.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptRMAMaster.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptSaleOrders.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptShipDetails.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptShipMaster.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptStockDetails.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptStockMaster.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptTakeStockDetails.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptTakeStockMaster.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="DataSets\DataSetAccountsPayable.xsc">
+      <DependentUpon>DataSetAccountsPayable.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetAccountsPayable.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetAccountsPayable.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetAccountsPayable.xss">
+      <DependentUpon>DataSetAccountsPayable.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetAccountsReceivable.xsc">
+      <DependentUpon>DataSetAccountsReceivable.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetAccountsReceivable.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetAccountsReceivable.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetAccountsReceivable.xss">
+      <DependentUpon>DataSetAccountsReceivable.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetCustomer.xsc">
+      <DependentUpon>DataSetCustomer.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetCustomer.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetCustomer.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetCustomer.xss">
+      <DependentUpon>DataSetCustomer.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetItems.xsc">
+      <DependentUpon>DataSetItems.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetItems.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetItems.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetItems.xss">
+      <DependentUpon>DataSetItems.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetManufacturer.xsc">
+      <DependentUpon>DataSetManufacturer.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetManufacturer.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetManufacturer.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetManufacturer.xss">
+      <DependentUpon>DataSetManufacturer.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetPurchaseDetails.xsc">
+      <DependentUpon>DataSetPurchaseDetails.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetPurchaseDetails.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetPurchaseDetails.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetPurchaseDetails.xss">
+      <DependentUpon>DataSetPurchaseDetails.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetPurchaseMaster.xsc">
+      <DependentUpon>DataSetPurchaseMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetPurchaseMaster.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetPurchaseMaster.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetPurchaseMaster.xss">
+      <DependentUpon>DataSetPurchaseMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetReversal.xsc">
+      <DependentUpon>DataSetReversal.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetReversal.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetReversal.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetReversal.xss">
+      <DependentUpon>DataSetReversal.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetRMADetails.xsc">
+      <DependentUpon>DataSetRMADetails.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetRMADetails.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetRMADetails.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetRMADetails.xss">
+      <DependentUpon>DataSetRMADetails.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetRMAMaster.xsc">
+      <DependentUpon>DataSetRMAMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetRMAMaster.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetRMAMaster.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetRMAMaster.xss">
+      <DependentUpon>DataSetRMAMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetSaleOrders.xsc">
+      <DependentUpon>DataSetSaleOrders.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetSaleOrders.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetSaleOrders.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetSaleOrders.xss">
+      <DependentUpon>DataSetSaleOrders.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetShipDetails.xsc">
+      <DependentUpon>DataSetShipDetails.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetShipDetails.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetShipDetails.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetShipDetails.xss">
+      <DependentUpon>DataSetShipDetails.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetShipMaster.xsc">
+      <DependentUpon>DataSetShipMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetShipMaster.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetShipMaster.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetShipMaster.xss">
+      <DependentUpon>DataSetShipMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetStockDetails.xsc">
+      <DependentUpon>DataSetStockDetails.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetStockDetails.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetStockDetails.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetStockDetails.xss">
+      <DependentUpon>DataSetStockDetails.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetStockMaster.xsc">
+      <DependentUpon>DataSetStockMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetStockMaster.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetStockMaster.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetStockMaster.xss">
+      <DependentUpon>DataSetStockMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetTakeStockDetails.xsc">
+      <DependentUpon>DataSetTakeStockDetails.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetTakeStockDetails.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetTakeStockDetails.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetTakeStockDetails.xss">
+      <DependentUpon>DataSetTakeStockDetails.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetTakeStockMaster.xsc">
+      <DependentUpon>DataSetTakeStockMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetTakeStockMaster.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetTakeStockMaster.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetTakeStockMaster.xss">
+      <DependentUpon>DataSetTakeStockMaster.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\events.ico" />
+    <None Include="Resources\events1.ico" />
+    <Content Include="System.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Inventory.ico" />
+    <None Include="Resources\Download.ico" />
+    <None Include="Resources\Check.ico" />
+    <None Include="Resources\RemoveAll.ico" />
+    <None Include="Resources\Add.ico" />
+    <None Include="Resources\print.ico" />
+    <None Include="Resources\Query.ico" />
+    <None Include="Resources\NoPicture.bmp" />
+    <None Include="Resources\Explain.ico" />
+    <None Include="Resources\Default.ico" />
+    <None Include="Resources\Save.ico" />
+    <None Include="Resources\Modify.ico" />
+    <None Include="Resources\New.ico" />
+    <None Include="Resources\Authority.ico" />
+    <None Include="Resources\UserRegistration.ico" />
+    <None Include="Resources\event.ico" />
+    <None Include="Resources\Setting.ico" />
+    <None Include="Resources\Report.ico" />
+    <None Include="Resources\Reversal.ico" />
+    <None Include="Resources\TakeStock.ico" />
+    <None Include="Resources\RMA.ico" />
+    <None Include="Resources\Ship.ico" />
+    <None Include="Resources\Stock.ico" />
+    <None Include="Resources\Purchase.ico" />
+    <None Include="Resources\Employee.ico" />
+    <None Include="Resources\Customer.ico" />
+    <None Include="Resources\Items.ico" />
+    <None Include="Resources\Manufacturer.ico" />
+    <None Include="Resources\Company.ico" />
+    <None Include="Resources\Refresh.ico" />
+    <None Include="Resources\Search.ico" />
+    <None Include="Resources\Remove.ico" />
+    <None Include="Resources\bg05.jpg" />
+    <None Include="Resources\clear.ico" />
+    <None Include="Resources\Cancel.ico" />
+    <None Include="Resources\OK.ico" />
+    <None Include="Resources\bg041.jpg" />
+    <None Include="Resources\bg04.jpg" />
+    <None Include="Resources\Exit.ico" />
+    <None Include="Resources\ChangePWD.ico" />
+    <None Include="Resources\Logout.ico" />
+    <None Include="Resources\Login.ico" />
+    <None Include="Resources\bg01.jpg" />
+    <None Include="Resources\bg02.jpg" />
+    <None Include="Resources\SplashScreen.jpg" />
+    <None Include="Resources\Ryu.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

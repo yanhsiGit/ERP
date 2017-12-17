@@ -1,0 +1,123 @@
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\SIS.exe.config
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\SIS.exe
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\SIS.pdb
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.AboutBox1.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmMidParent.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmSplashScreen.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.Properties.Resources.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.csproj.GenerateResource.Cache
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.exe
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.pdb
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\My.dll
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\My.pdb
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmLogin.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmChangePassword.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmEventManage.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmAuthoritySetup.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmProductRegistration.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmUserRegistration.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmEmployeeMaintain.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmBasicSetting.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.csprojResolveAssemblyReference.cache
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmCompanyMaintain.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmManufacturerMaintain.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmCustomerMaintain.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmItemsMaintain.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmSISPurchase.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmItemsQuery.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmReportPrint.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\RdlCompile.cache
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\RdlCompile.compiled
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\Reports\rptPurchaseDetails.rdlc
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\Reports\rptPurchaseMaster.rdlc
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmSISStock.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\Reports\rptStockDetails.rdlc
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\Reports\rptStockMaster.rdlc
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmSISShip.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmCheckUpdate.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\Reports\rptShipDetails.rdlc
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\Reports\rptShipMaster.rdlc
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmSISRMA.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\Reports\rptRMADetails.rdlc
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\Reports\rptRMAMaster.rdlc
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmSISTakeStock.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\Reports\rptTakeStockDetails.rdlc
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\Reports\rptTakeStockMaster.rdlc
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmSISReversal.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\Reports\rptReversal.rdlc
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\Reports\rptCustomer.rdlc
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmReportForCustomer.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\Reports\rptManufacturer.rdlc
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmReportForManufacturer.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmReportForItems.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\Reports\rptItems.rdlc
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmReportForAccountsPayable.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\Reports\rptAccountsPayable.rdlc
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmReportForAccountsReceivable.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\Reports\rptAccountsReceivable.rdlc
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\Reports\rptSaleOrders.rdlc
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\obj\Debug\SIS.FrmReportForSaleOrders.resources
+C:\Users\Ryu\Documents\Visual Studio 2013\Projects\SIS\SIS\bin\Debug\System.ini
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.csprojResolveAssemblyReference.cache
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.AboutBox1.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmAuthoritySetup.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmBasicSetting.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmChangePassword.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmCheckUpdate.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmCompanyMaintain.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmCustomerMaintain.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmEmployeeMaintain.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmEventManage.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmItemsQuery.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmItemsMaintain.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmLogin.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmManufacturerMaintain.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmMidParent.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmProductRegistration.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmReportForAccountsPayable.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmReportForAccountsReceivable.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmReportForCustomer.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmReportForItems.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmReportForManufacturer.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmReportForSaleOrders.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmReportPrint.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmSISPurchase.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmSISReversal.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmSISRMA.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmSISShip.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmSISStock.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmSISTakeStock.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmSplashScreen.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.FrmUserRegistration.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.Properties.Resources.resources
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.csproj.GenerateResource.Cache
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.csproj.CoreCompileInputs.cache
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.exe
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\obj\Debug\SIS.pdb
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\System.ini
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Reports\rptAccountsPayable.rdlc
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Reports\rptAccountsReceivable.rdlc
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Reports\rptCustomer.rdlc
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Reports\rptItems.rdlc
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Reports\rptManufacturer.rdlc
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Reports\rptPurchaseDetails.rdlc
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Reports\rptPurchaseMaster.rdlc
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Reports\rptReversal.rdlc
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Reports\rptRMADetails.rdlc
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Reports\rptRMAMaster.rdlc
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Reports\rptSaleOrders.rdlc
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Reports\rptShipDetails.rdlc
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Reports\rptShipMaster.rdlc
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Reports\rptStockDetails.rdlc
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Reports\rptStockMaster.rdlc
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Reports\rptTakeStockDetails.rdlc
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Reports\rptTakeStockMaster.rdlc
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\SIS.exe.config
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\SIS.exe
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\SIS.pdb
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\My.dll
+D:\專案開發實戰攻略書籍_程式碼\程式範例\SIS\SIS\bin\Debug\My.pdb
